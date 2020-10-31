@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 420px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: right;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 420px;
+}
+</style>
+
+<style>	
+#orangetick {
+  list-style-image: url("images/orangetick.png");
+}
+
+#redtick {
+  list-style-image: url("images/redtick.png");
+}
+
+#greentick {
+  list-style-image: url("images/greentick.png");
+}
+</style>
+
+
+
+
+	<title>PG London</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="css/owl.carousel.css" rel="stylesheet">
+
+
+	<link href="style.css" rel="stylesheet">
+
+	<link href="css/color/white.css" rel="stylesheet">
+
+	<link href="css/responsive.css" rel="stylesheet">
+
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> 
+</head>
+<body>
+
+
+<header id="top">
+  <div class="bg-color">
+	<div class="top section-padding">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-sm-6 col-md-6">
+			<div class="content">
+			  <h1><strong>P&G ITOT London Newsletter</strong></h1>
+				<h3>October 2020- Issue 1</h2>
+				<p>
+				</p>
+			</div> 
+		  </div> 
+		  <br><br>
+				<div class="col-sm-6 col-md-6" style="padding-left:100px;">
+
+				 <br><br>
+				 <div class="item">
+				  <img src="images/pg.png" style="height:50%" alt="">
+				</div>
+				</div> 
+			</div> 
+			</div> 
+		  </div>
+		</div>
+	  </div>
+	</div> 
+  </div>
+</header> 
+
+<section id="menu">
+  <div class="navigation">
+	<div id="main-nav" class="navbar navbar-default" role="navigation" >
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  	
+		</div>
+
+		<div class="navbar-collapse collapse">
+		  <ul id="ulnav" class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#top"></a></li>
+			<li><a href="#Overview">Overview</a></li>
+			<li><a href="#Scorecard">Value Protection Scorecard</a></li>
+			<li><a href="#Screenshots">EVP</a></li>
+			<li><a href="#socials">PowerBI links</a></li>
+			<li><a href="#Winning Organisation">Winning Organisation</a></li>
+			<li><a href="#ITOT Masterplan">ITOT Masterplan</a></li>
+			<li><a href="#ValueCreation">Value Creation</a></li>
+			<li><a href="#Contact">Contact</a></li>
+
+		  </ul>
+		</div>
+	  </div> 
+	</div> 
+  </div> 
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+
+<script> 
+$(window).scroll(function() {
+   var hT = $('#secure3').offset().top,
+       hH = $('#secure3').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+      $("#secure3").animate({opacity: "1"});
+      $("#secure2").animate({opacity: "1"});
+      $("#secure").animate({opacity: "1"});
+   } 
+});
+</script> 
+
+<section id="Overview">
+  <div class="description" style="background-color:#F2F3FD;">
+	<div class="description-one section-padding">
+	  <div class="container">
+		<div class="row">
+		<div align="center">
+		 <h1>Our IT Mantra</h1>
+		 </div>			
+			<div class="col-sm-4 col-md-4" style="padding-left:";>
+				<div id='secure'  class="thumbnail" style="width:300px; height:400px;opacity:0;">
+					<div class="caption">
+						<h3 align="center">Always On</h2>
+						<p>Always On enables us to avoid unplanned downtime through incidents and unauthorised changes</p>
+						<br>
+						<ul>
+						<li id="orangetick">ITOT Service Management</li>
+						<li id="orangetick">Carousel Digital Sinage</li>
+						<li id="redtick">ALICS 2.0 Migration</li>
+						<li id="orangetick">Connectivity as a Service</li>
+						<li id="orangetick">SCPT</li>
+						<li id="orangetick">SD WAN</li>
+						</ul>
+					</div>
+				 </div>
+				<div id='secure'  class="thumbnail" style="width:180px; height:80px;">
+				<ul>
+				 <li id="greentick">= Completed</li>
+				 <li id="orangetick">= In progress</li>
+				 <li id="redtick">= Not started</li>
+				</ul>
+				</div>
+			  </div>
+			  <div class="col-sm-4 col-md-4" style="padding-left: ";>
+				<div id='secure2' class="thumbnail" style="width:300px; height:400px;opacity:0;">
+					<div class="caption">
+						<h3 align="center">Always Secure</h2>
+						<p>Always Secure ensures that we are free from cyber security threats to PCs, applications, servers, network hardware etc
+						<br>
+						<ul>
+						<li id="orangetick">ICS & CIMAT Firewall Refresh</li>
+						<li id="orangetick">Asset Management</il>
+						<li id="orangetick">OS Obsolescence IT</li>
+						<li id="orangetick">OS Obsolescence OT</li>
+						<li id="redtick">Sodexo Security Reinvention</li>
+						<li id="orangetick">OH Self Service Booking System</li>
+						</ul>
+					</div>
+				 </div>
+			  </div>
+
+			  <div class="col-sm-4 col-md-4"  style="padding-left: ";>
+				<div id='secure3' class="thumbnail" style="width:300px; height:400px;opacity:0;">
+					<div class="caption">
+						<h3 align="center">Always Compliant</h2>
+						<p>Always Compliant drives adherance to compliance controls surrounding networks, data, servers, applications etc.</p>
+						<br>
+						<ul>
+						<li id="orangetick">iRisk Medium</li>
+						<li id="greentick">iRisk High</li>
+						<li id="orangetick">Digital Energising</li>
+						<li id="orangetick">iRisk Issue Remediation</li>
+						<li id="greentick">EVP</li>
+						<li id="greentick">MAGICS Completion</li>
+						<li id="orangetick">MAGICS Compliance</li>
+						</ul>
+					</div>
+				 </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+  </div> 
+</section>
+
+
+<section id="Scorecard">
+  <div class="features section-padding">
+	<div class="container">
+	  <div class="header">
+		<h1>Value Protection Scorecard</h1>
+		<p>Our Value Protection Scorecard details the progress made with protecting production operations. The scorecard includes EVP, MAGICS, iRisk, OS Obsolescense, LSA Remediation and IT/OT Reliability.</p>
+		<div class="underline">
+		  <i class="fa fa-briefcase"></i>
+		</div>
+		</div>
+	  </div> 
+	  <div class="row">
+		<div class="col-md-2">
+
+		</div>
+		<div class="col-md-8 feature-list">
+		  <div class="row">
+
+			<div class="col-sm-6 col-md-6">
+			  <div class="featured-item">
+				<div class="icon">
+				  <div class="icon-style"><i class="fa fa-key"></i></div>
+				</div> 
+				<div class="meta-text">
+				  <h3>EVP</h3>
+				  <li id="greentick">91% compliance for the year</li>
+				  <li id="greentick">96% for the quarter, aiming for 98% by the end of the year!</li>
+				  <li id="greentick">All departments are also above the 90% threshold for EVP</li>
+				  <li id="greentick">Department schedules now in place to ensure we're always up to date with patching!</li>		
+				</div> 
+			  </div> 
+			</div> 
+
+
+			<div class="col-sm-6 col-md-6">
+			  <div class="featured-item">
+				<div class="icon">
+				  <div class="icon-style"><i class="fa fa-folder-open"></i></div>
+				</div> 
+				<div class="meta-text">
+				  <h3>iRisk</h3>
+				  <li id="greentick">100% of all issues closed for iRisk High rated applications</li>
+				  <li id="orangetick">For Medium rated applications 70% are at the final step (step 4)</li>
+				  <li id="greentick">with the remaining at step 3, we're off track for the end of October deadline. A plan is being worked to remediate the remaining 30% before end of November.</li>
+				</div> 
+			  </div> 
+			</div> 
+
+			<div class="col-sm-6 col-md-6">
+			  <div class="featured-item">
+				<div class="icon">
+				  <div class="icon-style"><i class="fa fa-magic"></i></div>
+				</div> 
+				<div class="meta-text">
+				  <h3>Magics</h3>
+				  <li id="greentick">For MAGICS we are re at 100% completion for all toolkits for the JAS quarter but only 47% compliance</li> 
+				  <li id="orangetick">We are aiming 80%+ compliance by the end of the next quarter</li>
+				</div> 
+			  </div> 
+			</div> 
+
+			<div class="col-sm-6 col-md-6">
+			  <div class="featured-item">
+				<div class="icon">
+				  <div class="icon-style"><i class="fa fa-question"></i></div>
+				</div> 
+				<div class="meta-text">
+				  <h3>Obsolescense</h3>
+				  <li id="orangetick">For IT devices we have 44.48% remediated. A plan has been devised to complete the remainder by the end of 2020. For OT devices our plan is clear and we're looking to wipe OS Obsolescence by the end of the year</li>
+				</div> 
+			  </div> 
+			</div> 
+			<br>
+			<div class="col-sm-6 col-md-6">
+			  <div class="featured-item">
+				<div class="icon">
+				  <div class="icon-style"><i class="fa fa-tags"></i></div>
+				</div> 
+				<div class="meta-text">
+				  <h3>LSA Remediation</h3>
+				  <li id="greentick">LSA is 100% complete with 4 remediation actions to carry out. This will be done by the end of 2020.</li>
+				</div>
+			  </div> 
+			</div> 
+
+			<div class="col-sm-6 col-md-6">
+			  <div class="featured-item">
+				<div class="icon">
+				  <div class="icon-style"><i class="fa fa-compass"></i></div>
+				</div> 
+				<div class="meta-text">
+				  <h3>ITOT Reliability</h3>
+				  <li id="greentick">For October we've been green for every day except one day where we had DC downtime for several hours due to an error with an upgrade.</li>
+				</div> 
+			  </div> 
+			</div> 
+		  </div> 
+		</div>
+	  </div>
+	</div>
+  </div> 
+</section>
+
+
+<section id="Screenshots">
+  <div class="screenshots section-padding dark-bg">
+	<div class="container">
+	  <div class="header">
+		<h1>Enhanced Vulnerability Protection</h1>
+		<p>EVP plays a key role in protecting our production systems in London Plant, which is why we have helped to drive focus and ensure patching is done on time.
+		We've increased our scores in all departments across all sectors (since 1st July), whilst staying vigilant of critical vulnerabilities.</p>
+		<div class="underline"><i class="fa fa-image"></i></div>
+	  </div>
+
+	  <div class="owl-carousel owl-theme">
+		<div class="item">
+		  <a href="images/evp1.png"><img src="images/evp1.png" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/evp2.png"><img src="images/evp2.png" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/evp5.png"><img src="images/evp5.png" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/evp6.png"><img src="images/evp6.png"  style="height:100%;width:100%; alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/evp7.png"><img src="images/evp7.png"  style="height:100%;width:100%; alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/evp9.png"><img src="images/evp9.png" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+	  </div>
+	</div> 
+  </div> 
+
+</section>
+
+
+<section id="socials">
+  <div class="bg-color">
+	<div class="socials section-padding">
+	  <div class="container">
+		<div class="header">
+		  <h1 style="color:white";>Our Links For<strong> PowerBI</strong></h1>
+		  <p style="color:white";>Here you can find all of our related PowerBi links to see how we're getting on.</p>
+		  <p style="color:white";>These are our key areas in Value Protection this month
+		  <div class="underline"><i class="fa fa-group"></i></div>
+		</div> 
+		<div class="row socials-area">
+		  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			<a href="https://app.powerbi.com/groups/me/reports/03846969-87f9-471b-b34c-1c0f508a59be/ReportSection2e9e013362100bac8677?noSignUpCheck=1" class="btn btn-default custom-btn socials-btn">
+			  <i class="fa fa-windows"></i>
+			  <div class="powerbis">
+				<span>ITOT Reliability</span><strong>Here</strong>
+			  </div>
+			</a>
+		  </div> 
+		  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			<a href="https://app.powerbi.com/groups/287f3e98-e5ec-4b29-bb82-657b2da337e3/reports/ac30a962-ba77-4b31-973e-bbec6abc2ba1/ReportSection" class="btn btn-default custom-btn socials-btn">
+			 <i class="fa fa-windows"></i>
+			<div class="powerbis">
+			  <span>OS Obsolesence</span><strong>Here</strong>
+			</div></a>
+		  </div>
+		  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			<a href="https://app.powerbi.com/groups/287f3e98-e5ec-4b29-bb82-657b2da337e3/reports/495e5129-d7c5-4dce-a973-ea45d40b10bb/ReportSection" class="btn btn-default custom-btn socials-btn">
+			<i class="fa fa-windows"></i>
+			<div class="powerbis">
+			  <span>Our EVP</span><strong>Here</strong>
+			</div>
+			</a>
+		  </div> 
+		  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			<a href="https://pgone.sharepoint.com/sites/fhcdigi/SitePages/iRisk-Tracker.aspx" class="btn btn-default custom-btn socials-btn">
+			 <i class="fa fa-windows"></i>
+			<div class="powerbis">
+			  <span>Our iRisk dashboard</span><strong>Here</strong>
+			</div>
+			</a>
+		  </div> 
+		</div> 
+	  </div> 
+	</div> 
+  </div> 
+</section>
+<script> 
+$(window).scroll(function() {
+   var hT = $('#sess1').offset().top,
+       hH = $('#sess1').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+      $( "#sess1" ).animate({opacity: "1"}); 
+      $( "#sess2" ).animate({opacity: "1"}); 
+      $( "#sess3" ).animate({opacity: "1"}); 
+      $( "#sess4" ).animate({opacity: "1"}); 
+      $( "#sess5" ).animate({opacity: "1"}); 
+      $( "#sess6" ).animate({opacity: "1"}); 
+      $( "#sess7" ).animate({opacity: "1"}); 
+      $( "#sess8" ).animate({opacity: "1"}); 
+      $( "#sessOne" ).animate({opacity: "1"}); 
+      $( "#sessTwo" ).animate({opacity: "1"}); 
+      $( "#sessThree" ).animate({opacity: "1"}); 
+      $( "#sessFour" ).animate({opacity: "1"}); 
+      $( "#sessFive" ).animate({opacity: "1"}); 
+      $( "#sessSix" ).animate({opacity: "1"}); 
+      $( "#sessSeven" ).animate({opacity: "1"}); 
+      $( "#sessEight" ).animate({opacity: "1"}); 
+  }
+});
+</script> 
+
+  <div class="description"  style="background-color:#F2F3FD;">
+	<div class="description-one section-padding">
+	  <div class="container">
+	  <div class="header">
+		<h1>ITOT SPOC Forum</h1>
+		<p>In October we introduced our ITOT SPOC forums - a way of communicating with department OT SPOCs/E&I/PC&IS Leaders around the site. We spent our first session introducing ideas and sharing the wants and needs of the department leaders and ourselves.</p>
+		<p>We'll be hosting these sessions monthly to ensure we're keeping fully up to date with our SPOCs on site
+		<div class="underline">
+		  <i class="fa fa-briefcase"></i>
+		</div>
+		</div>
+	  	   <div class="col-sm-6 col-md-6">
+			<div align="center">
+ 			   <img src="images/forum1.png"  style="border-radius: 8px;"  alt="item photo">
+			   <h3>Our Plan</h3>
+			   <p>We started these forums as a way to for us to communicate our colleagues on a more granular level, allowing everyone to leave the session with knowledge on who to approach and how.</p>
+			   <br>
+			</div>
+		   </div>
+	  	   <div class="col-sm-6 col-md-6">
+			<div align="center">
+ 			   <img src="images/forum2.png"  style="border-radius: 8px;"  alt="item photo">
+			   <h3>Our Points</h3>
+			   <p>We introduced ourselves properly, giving everyone an insight on what we do. This gave everyone an insight on who to speak to about a certain topic, as well as breaking the barrier between engineering and ITOT.</p>
+			   <br><br>
+			</div>
+		   </div>
+		   
+	  	   <div class="col-sm-6 col-md-6">
+			<div align="center">
+ 			   <img src="images/forum3.png"  style="border-radius: 8px;"  alt="item photo">
+			   <h3>The Changes</h3>
+			   <p>We took the opportunity to give an update on our plans for the future. By explaining our projects and things to look out for, the attendees left with an idea of what we're working on, along with how they are benifitted.</p>
+			</div>
+		   </div>
+	  	   <div class="col-sm-6 col-md-6">
+			<div align="center">
+ 			   <img src="images/forum4.png"  style="border-radius: 8px;"  alt="item photo">
+			   <h3>The Wants and Needs</h3>
+			   <p>We also got our points across regarding what we're asking for, giving a backstory on what we need rather than sending out an email to get a point across.</p>
+			</div>
+		   </div>
+	  </div>
+	</div>
+    </div>
+
+<section id="Winning Organisation">
+  <div class="features section-padding">
+	<div class="container">
+	  <div class="header">
+		<h1>Digital University</h1>
+		<p>Our Digital University is a new initiative we've created across site to help build on the culture and capability of our colleagues. There are a lot of topics our P&Gers want to learn, but don't have the resources or knowledge on where to look. We aim to change that.</p>
+		<div class="underline">
+		  <i class="fa fa-briefcase"></i>
+		</div>
+		</div>
+	  </div> 
+	  <div class="row">
+		<div class="col-md-2">
+
+		</div>
+		<div class="col-md-12 feature-list>
+		  <div class="row">
+
+			<div class="col-sm-4 col-md-4" id="sess1" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>Microsoft Suite - 27th October</h3>
+				  <p>ite to help build on the culture and capability of our colleagues. There are a lot of topics our P&Gers want to learn, but don't have the resources or knowledge on where to look. We aim to change that.</p>
+				</div> 
+			  </div> 
+			</div> 
+			<div class="col-sm-2 col-md-2" id="sessOne" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session1.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div>
+
+
+			<div class="col-sm-4 col-md-4" id="sess2" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>PowerBI - 27th November</h3>
+				  <p>PowerBI is an important tool to have when you want to show multiple breakdowns of data. Our PowerBI Session will help individuals to understand how to use the software and display their data in a meaningful way.
+				</div> 
+			  </div>
+			</div>
+			<div class="col-sm-2 col-md-2" id="sessTwo" style="opacity:0;">
+			  <div class="featured-item">
+			     <br>
+			     <img src="images/session2.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div>
+
+
+			<div class="col-sm-4 col-md-4" id="sess3" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>Cyber Security - 22nd January</h3>
+				  <p>We have another session surrounding Cyber Security as a way for us to build awareness on the different threats we face at P&G. Our aim is to help others realise the importance of compliance and good practices.</p>
+				</div> 
+			  </div> 
+			</div> 
+			<div class="col-sm-2 col-md-2" id="sessThree" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session3.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div>
+
+
+			<div class="col-sm-4 col-md-4" id="sess4" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>Yammer / Teams - 26th February</h3>
+				  <p>Yammer and Teams are again tools that we use daily, but there are always feature no one knows about, or something they wish they could do but don't know it is possible. This session builds on our knowledge of these apps.
+				</div> 
+			  </div> 
+			</div> 
+			<div class="col-sm-2 col-md-2" id="sessFour" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session4.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div>
+
+
+			<div class="col-sm-4 col-md-4" id="sess5" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>PowerApps & Automate - 23rd July</h3>
+				  <p>PowerApps and Automate were created to simplify manual tasks by creating flows which take out manual aspects e.g. replying to an email to confirm an invitation, which can easily be automated using PowerAutomate.</p>
+				</div> 
+			  </div> 
+			</div> 
+			<div class="col-sm-2 col-md-2" id="sessFive" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session5.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div>
+
+
+			<div class="col-sm-4 col-md-4" id="sess6" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>Windows 10 - 25th June</h3>
+				  <p>Windows 10 is a beast, with hundreds of features no one has any idea exists. The session on windows 10 aims to bring some of these ease of use features to life to help us become more efficient with the way that we work.</p>
+				</div> 
+			  </div>
+                        </div>
+			<div class="col-sm-2 col-md-2" id="sessSix" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session6.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div> 
+
+
+			<div class="col-sm-4 col-md-4" id="sess7" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>Microsoft Forms / Sway</h3>
+				  <p>If you've ever wanted a way to gather information from people and localise to a central point, then Microsoft forms can help. And if you've ever needed a way to display information interactively, then Sway can help you achieve this.</p>
+				</div> 
+			  </div> 
+			</div> 
+			<div class="col-sm-2 col-md-2" id="sessSeven" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session7.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div>
+
+
+			<div class="col-sm-4 col-md-4" id="sess8" style="opacity:0;">
+			  <div class="featured-item">
+				<div class="meta-text">
+				  <h3>Office Suite - 22nd October</h3>
+				  <p>The Mircosoft Office Suite has range of programs such as word, outlook and access. Everyone knows how to use these programs to some degree, but our session aims to help us work more effectively and create better quality.</p>
+				</div> 
+			  </div>
+                        </div>
+			<div class="col-sm-2 col-md-2" id="sessEight" style="opacity:0;">
+			  <div class="featured-item">
+    			     <br>
+			     <img src="images/session8.png" style="height:100%;width:100%;  alt="item photo">
+			  </div>
+			</div> 
+			<hr>
+			<br>
+		  	<div class="col-sm3 col-md-3">
+ 			   <img src="images/digiuni1.jpg"  style="border-radius: 8px;"  alt="item photo">
+			</div>
+		  	<div class="col-sm3 col-md-3">
+ 			   <img src="images/digiuni2.jpg"  style="border-radius: 8px;"  alt="item photo">
+			</div>
+		  	<div class="col-sm3 col-md-3">
+ 			   <img src="images/digiuni3.jpg"  style="border-radius: 8px;"  alt="item photo">
+			</div>
+		  	<div class="col-sm3 col-md-3">
+ 			   <img src="images/digiuni4.jpg"  style="border-radius: 8px;"  alt="item photo">
+			</div>
+		  </div> 
+		</div>
+	  </div>
+	</div>
+     <div class="screenshots section-padding dark-bg">
+	<div class="container">
+	  <div class="header">
+		<h1>Virtual Live Tour</h1>
+		<p>Over the first two weeks of October we had a visit from Daniela Cima, our VP for F&HC. Covid put a twist on the tour, meaning it was completely virtual. We formed the solution of a TV and two Ipads, one for Daniela's face, and one to point at the TV with the aim of making it look feel Daniela is there in person.</p>
+		<div class="underline"><i class="fa fa-image"></i></div>
+	  </div>
+
+	  <div class="owl-carousel owl-theme">
+		<div class="item">
+		  <a href="images/psgtour1.png"><img src="images/psgtour1.jpg" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/psgtour4.jpg"><img src="images/psgtour4.jpg" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/psgtour2.png"><img src="images/psgtour2.jpg" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/psgtour5.jpg"><img src="images/psgtour5.jpg"  style="height:100%;width:100%; alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/psgtour3.png"><img src="images/psgtour3.jpg"  style="height:100%;width:100%; alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/psgtour6.jpg"><img src="images/psgtour6.jpg" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+		<div class="item">
+		  <a href="images/psgtour7.png"><img src="images/psgtour7.png" style="height:100%;width:100%;  alt="item photo"></a>
+		</div> 
+	  </div>
+	</div> 
+     </div>  
+</section>
+
+<section id="ITOT Masterplan">
+  <div class="description">
+	<div class="description-one section-padding">
+	  <div class="container">
+		<div class="row">
+		<div align="center">
+		 <h1>ITOT Masterplan 20/21</h1>	
+			<br>
+			<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=796bcd94-bbbb-42e2-b474-0323c03dd2cc&groupId=287f3e98-e5ec-4b29-bb82-657b2da337e3&autoAuth=true&ctid=3596192b-fdf5-4e2c-a6fa-acb706c963d8&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>				
+			<br>
+		</div>
+		</div>
+	  </div>
+	</div>
+   </div>
+</section>
+	
+
+<section id="Value Creation">
+  <div class="description"  style="background-color:#F2F3FD;">
+	<div class="description-one section-padding">
+	  <div class="container">
+		<div class="row">
+		<div align="center">
+		 <h1>Value Creation</h1>
+		   <br>
+		   <img src="images/comingsoon.png" style="height:60%;width:60%;   style="border-radius: 8px;" alt="item photo">
+	   	</div>
+	        </div>
+	  </div>
+	</div>
+    </div>
+</section>
+
+
+  <div class="description"  style="background-color:;">
+	<div class="description-one section-padding">
+	  <div class="container">
+		<div class="row">
+		<div align="center">
+		 <h1>Connectivity as a Service</h1>
+			<br>
+			<img src="images/caas.png" style="height:80%;width:80%;   style="border-radius: 8px;" alt="item photo">
+			</div>
+		 </div>
+		 </div>
+	  </div>
+	 </div>
+   </div> 
+
+<footer id="Contact" style="background-color:#F2F3FD;">
+  <div class="footer section-padding">
+	<div class="container">
+	  <h1>Contact Us</h1>
+	  <p>If you want to know more about the work we're doing here at London, feel free to send us an email.</p>
+	 <br><br>
+	  <form action="" class="form contact">
+		<div class="row">
+		  <div class="col-xs-12 col-md-6">
+			<div class="form-group">
+			  <label for="name" class="sr-only">Name</label>
+			  <input type="text" class="form-control" id="name" placeholder="Name">
+			</div> 
+
+			<div class="form-group">
+			  <label for="email" class="sr-only">Email</label>
+			  <input type="email" class="form-control" id="email" placeholder="Email">
+			</div> 
+
+			<div class="form-group">
+			  <label for="subject" class="sr-only">Subject</label>
+			  <input type="text" class="form-control" id="subject" placeholder="Subject">
+			</div> 
+		  </div>
+		  
+		  <div class="col-xs-12 col-md-6">
+			<div class="form-group">
+			  <label for="message" class="sr-only">Message</label>
+			  <textarea name="message" id="message" placeholder="Message"></textarea>
+			</div>
+		  </div>
+		</div> 
+		<button class="btn btn-default contact-submit custom-btn" type="submit"><i class="fa fa-hand-o-right"></i><a href="box.jm@pg.com">SUBMIT</button>
+	  </form>    
+
+	
+		<div align="center">
+                 <div class="col-md-12>
+		  <div class="row">
+			<div class="col-sm-2 col-md-2">
+			  <div class="meta-text">
+			  <br>
+			  </div>
+			</div>
+			<div class="col-sm-2 col-md-2">
+			  <div class="meta-text">
+			    <img src="images/team8.png" style="height:175px;width:175px;  alt="item photo">
+			    <h5>Kazi Islam - ITOT Leader</h5>
+			  </div> 
+			</div> 
+
+			<div class="col-sm-2 col-md-2">
+			  <div class="meta-text">
+			    <img src="images/team5.png" style="height:175px;width:175px;  alt="item photo">
+			    <h5>Pete Legg - E2E Leader</h5>
+			  </div> 
+			</div> 
+
+			<div class="col-sm-2 col-md-2">
+			  <div class="meta-text">
+			    <img src="images/team6.png" style="height:175px;width:175px;  alt="item photo">
+			    <h5>Jonathan Box - Cyber Security Leader</h5>
+			  </div> 
+			</div> 
+		
+			<div class="col-sm-2 col-md-2">
+			  <div class="meta-text">
+			    <img src="images/team7.png" style="height:175px;width:175px;  alt="item photo">
+			    <h5>Graham Wood - ITOT Service Management</h5>
+			  </div> 
+			</div>
+			<div class="col-sm-2 col-md-2">
+			  <div class="meta-text">
+			  <br>
+			  </div>
+			</div>
+			<br>
+		 </div> </div>
+		</div>
+ 	       </div>
+</footer>
+  
+  
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
